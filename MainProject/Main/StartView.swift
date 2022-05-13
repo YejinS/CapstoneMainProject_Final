@@ -9,10 +9,12 @@ import UIKit
 
 class StartView: UIViewController {
 
+    @IBOutlet weak var startLogoImg: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let leavitLogoGif = UIImage.gifImageWithName("leavit_nobg_gif")
+        startLogoImg.image = leavitLogoGif
     }
     
 

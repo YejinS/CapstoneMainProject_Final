@@ -99,7 +99,7 @@ class HomeViewDetail: UIViewController{
                 self.topMenu.transform = CGAffineTransform(translationX: 0, y: 0)
             })
             topBtn.image("optionSearch.png")
-            backColorImg.image("image424.png")
+            backColorImg.image("image 424.png")
             homeLogoImg.image("homelogoPurple.png")
             subView1.isHidden = true
             subView2.isHidden = false
@@ -112,7 +112,7 @@ class HomeViewDetail: UIViewController{
                 self.topMenu.transform = CGAffineTransform(translationX: 162.0, y: 0)
             })
             topBtn.image("hoptionSearch2.png")
-            backColorImg.image("image425.png")
+            backColorImg.image("image 425.png")
             homeLogoImg.image("homelogoRed.png")
             subView1.isHidden = false
             subView2.isHidden = true

@@ -1811,10 +1811,6 @@
                                 <color key="textColor" red="0.63529413940000001" green="0.63137257099999999" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="leavitLogo" translatesAutoresizingMaskIntoConstraints="NO" id="amw-qE-a6W">
-                                <rect key="frame" x="145" y="351" width="100" height="143"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="을 위한" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-65-OI4">
                                 <rect key="frame" x="100" y="128.33333333333331" width="76" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1822,15 +1818,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="leavit_nobg_gif.gif" translatesAutoresizingMaskIntoConstraints="NO" id="amw-qE-a6W">
+                                <rect key="frame" x="-30" y="158" width="450" height="528"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qgP-Ug-dS7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="9e7-9M-4eA"/>
+                    <connections>
+                        <outlet property="startLogoImg" destination="amw-qE-a6W" id="Sqa-Zh-l9h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oCG-FS-b0J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-534" y="1024"/>
+            <point key="canvasLocation" x="-535.38461538461536" y="1023.696682464455"/>
         </scene>
         <!--Login Page-->
         <scene sceneID="8vZ-aM-Y8l">
@@ -2153,7 +2156,7 @@
         <image name="jthisLoc" width="348.66665649414062" height="37.666667938232422"/>
         <image name="jxicon" width="12" height="12.333333015441895"/>
         <image name="kakao" width="51" height="52"/>
-        <image name="leavitLogo" width="100" height="143"/>
+        <image name="leavit_nobg_gif.gif" width="800" height="450"/>
         <image name="line281" width="1.3333333730697632" height="13.333333015441895"/>
         <image name="lineUnder" width="344" height="1"/>
         <image name="lineUnder3" width="251" height="1"/>
